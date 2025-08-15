@@ -1,4 +1,4 @@
-chmod +x deploy_glitchtip_clean.sh destroy_glitchtip.sh
+chmod +x glitchtip.sh destroy_glitchtip.sh
 
 # deploy
 ./glitchtip.sh
