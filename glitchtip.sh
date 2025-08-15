@@ -12,7 +12,7 @@ ADMIN_PASSWORD="ChangeMeStrong123!"
 
 NETWORK_NAME="glitchtip_network"
 POSTGRES_IMAGE="postgres:17"
-REDIS_IMAGE="redis:7.4-alpine"
+REDIS_IMAGE="redis:8-alpine"
 
 # === 1. Network ===
 echo "[1/6] Ensuring network..."
