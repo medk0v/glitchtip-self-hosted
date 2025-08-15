@@ -6,6 +6,10 @@ POSTGRES_PASSWORD="123456789"
 SITE_URL="https://glitchtip.example.com"   # Change this to your domain
 GLITCHTIP_IMAGE="glitchtip/glitchtip:v5.1.0"
 
+ADMIN_USERNAME="admin"                      # Change if needed
+ADMIN_EMAIL="admin@example.com"             # Change if needed
+ADMIN_PASSWORD="ChangeMeStrong123!"         # Change to a strong password
+
 echo "[1/6] Creating network..."
 docker network create glitchtip_network || true
 
